@@ -1,0 +1,132 @@
+OpenMP Local Benchmark Results - Wed Nov 26 19:20:18 CST 2025
+System: 20 cores detected
+======================================
+
+Image Size: small (test_gradient_small.ppm)
+--------------------------------------
+
+Filter: grayscale
+  1 threads: 0.001437 seconds
+  2 threads: 0.000734 seconds
+  4 threads: 0.001560 seconds
+  8 threads: 0.002285 seconds
+  12 threads: 0.009044 seconds
+  16 threads: 0.019830 seconds
+  20 threads: 0.049148 seconds
+
+
+Filter: blur
+  1 threads: 0.009174 seconds
+  2 threads: 0.005494 seconds
+  4 threads: 0.004543 seconds
+  8 threads: 0.002179 seconds
+  12 threads: 0.004413 seconds
+  16 threads: 0.020105 seconds
+  20 threads: 0.026534 seconds
+
+
+Filter: edge
+  1 threads: 0.008116 seconds
+  2 threads: 0.004492 seconds
+  4 threads: 0.003703 seconds
+  8 threads: 0.002068 seconds
+  12 threads: 0.002730 seconds
+  16 threads: 0.022266 seconds
+  20 threads: 0.028299 seconds
+
+
+Filter: brighten
+  1 threads: 0.002321 seconds
+  2 threads: 0.001838 seconds
+  4 threads: 0.001034 seconds
+  8 threads: 0.001178 seconds
+  12 threads: 0.005046 seconds
+  16 threads: 0.016420 seconds
+  20 threads: 0.021339 seconds
+
+
+Image Size: large (test_gradient_large.ppm)
+--------------------------------------
+
+Filter: grayscale
+  1 threads: 0.020063 seconds
+  2 threads: 0.011826 seconds
+  4 threads: 0.010174 seconds
+  8 threads: 0.035594 seconds
+  12 threads: 0.027446 seconds
+  16 threads: 0.044914 seconds
+  20 threads: 0.035771 seconds
+
+
+Filter: blur
+  1 threads: 0.084487 seconds
+  2 threads: 0.058606 seconds
+  4 threads: 0.038461 seconds
+  8 threads: 0.033376 seconds
+  12 threads: 0.027553 seconds
+  16 threads: 0.035757 seconds
+  20 threads: 0.073911 seconds
+
+
+Filter: edge
+  1 threads: 0.065066 seconds
+  2 threads: 0.042772 seconds
+  4 threads: 0.034917 seconds
+  8 threads: 0.047151 seconds
+  12 threads: 0.047270 seconds
+  16 threads: 0.048748 seconds
+  20 threads: 0.053418 seconds
+
+
+Filter: brighten
+  1 threads: 0.020035 seconds
+  2 threads: 0.009222 seconds
+  4 threads: 0.007222 seconds
+  8 threads: 0.022128 seconds
+  12 threads: 0.011017 seconds
+  16 threads: 0.044916 seconds
+  20 threads: 0.021119 seconds
+
+
+Image Size: medium (test_gradient_medium.ppm)
+--------------------------------------
+
+Filter: grayscale
+  1 threads: 0.005247 seconds
+  2 threads: 0.002896 seconds
+  4 threads: 0.001656 seconds
+  8 threads: 0.002085 seconds
+  12 threads: 0.002619 seconds
+  16 threads: 0.019817 seconds
+  20 threads: 0.030978 seconds
+
+
+Filter: blur
+  1 threads: 0.024327 seconds
+  2 threads: 0.014280 seconds
+  4 threads: 0.010542 seconds
+  8 threads: 0.009491 seconds
+  12 threads: 0.022641 seconds
+  16 threads: 0.027440 seconds
+  20 threads: 0.022537 seconds
+
+
+Filter: edge
+  1 threads: 0.026359 seconds
+  2 threads: 0.015357 seconds
+  4 threads: 0.012251 seconds
+  8 threads: 0.015482 seconds
+  12 threads: 0.024124 seconds
+  16 threads: 0.022116 seconds
+  20 threads: 0.040797 seconds
+
+
+Filter: brighten
+  1 threads: 0.006097 seconds
+  2 threads: 0.004092 seconds
+  4 threads: 0.013679 seconds
+  8 threads: 0.035573 seconds
+  12 threads: 0.031950 seconds
+  16 threads: 0.018799 seconds
+  20 threads: 0.057684 seconds
+
